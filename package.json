@@ -1,0 +1,16 @@
+{
+  "name": "venturetrails",
+  "version": "0.0.1",
+  "description": "Hiking website/CMS",
+  "main": "vserver.js",
+  "author": "Patrick Edelen",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "jsonwebtoken": "^5.4.1",
+    "mongoose": "^4.2.5",
+    "morgan": "^1.6.1",
+  }
+}

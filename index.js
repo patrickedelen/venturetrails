@@ -1,8 +1,9 @@
 var express = require('express');
 var app = express();
 var http = require('http').Server(app);
-var io = require('socket.io')(http);
-var tokens = [];
+ var dots = require("dot").process({path: "./views"});
+      dots.mytemplate({foo:"hello world"});
+
 
 //set the static route
 app.use('/public', express.static('public'));
